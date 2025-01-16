@@ -27,9 +27,6 @@ header .logo {
     text-decoration: none;
     
 }
-header .logo img {
-    max-width: 50px;
-}
 .logo img:hover {
     transform: scale(1.01);
     filter: brightness(1.1);
@@ -265,7 +262,6 @@ footer .logo{
     font-family: 'Cinzel', serif;
 }
 footer .logo img {
-    max-width: 150px;
     margin-left: 10px;
 }
 footer .footer-info section{
@@ -333,7 +329,6 @@ footer nav button {
 @media screen and (max-width: 500px) {
     
     footer .logo img {
-    max-width: 100px;
     margin: 0 auto;
     }
     footer .logo{
